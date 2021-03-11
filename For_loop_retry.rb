@@ -4,7 +4,7 @@ for i in 0..5
      puts "this is value of #{i}" 
   end
 
-  for i in 0..5
+  (0..5).each do |i|
     retry if i > 2
  puts "Value of local variable is #{i}"
  end
